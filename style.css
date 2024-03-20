@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: rgb(206, 212, 218);
+    display: flex;
+    flex-direction:row; /* Centraliza todo o conteúdo horizontalmente */
+    align-items: center; /* Centraliza todo o conteúdo verticalmente */
+    min-height: 100vh; /* Garante que o corpo ocupe toda a altura da viewport */
+    padding: 40px;
+}
+
+.box-mensagens {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.decodificador {
+    background-color: #fff;
+    border-radius: 32px;
+    width: 400px;
+    height: 944px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.codificador {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    font-family: initial;
+    width: 980px;
+    height: 944px;
+}
+
+.EntradaTexto {
+    width: 680px;
+    height: 48px;
+    top: 168px;
+    left: 240px;
+    gap: 0px;
+    background-color: rgb(255, 255, 255,0.0);
+    border: none;
+    position: absolute;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #0A3871;
+    border: none;
+}
+.aviso-formatacao{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    height: 18px;
+    top: 851px;
+    left: 240px;
+    gap: 8px;
+    opacity: 0px;
+    position: absolute;
+}
+.botoes{
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    top:885px;
+    left: 240px;
+    gap: 24px;
+    width: 680px;
+    height: 67px;
+}
+.botao-codificar{
+    width: 328px;
+    height: 67px;
+    padding: 24px ;
+    gap: 8px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color:#0A3871;
+    color: #fff;
+}
+.botao-decodificar{
+    width: 328px;
+    height: 67px;
+    padding: 24px ;
+    gap: 8px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color:#D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+.texto{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.subtitulo{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    margin:20px;
+}
+.logo-alura{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
