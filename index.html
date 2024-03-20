@@ -10,9 +10,13 @@
     <div class="box-mensagens">
 
         <div class="decodificador">
-            <img src="src/High quality products 1 1.svg" alt="ilustração-menina-com-lupa" class="imagem-menina">
-            <h2 class="subtitulo">Nenhuma mensagem encontrada</h2>
-            <p class="texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <textarea readonly class="texto-resultado" id="resultado">Texto Aqui</textarea>
+            <div class="container-sem-texto" id="container-sem-texto">
+                    <img src="src/High quality products 1 1.svg" alt="ilustração-menina" class="imagem-menina" id="imagem-menina">
+                    <h2 class="subtitulo">Nenhuma mensagem encontrada</h2>
+                    <p class="texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+             </div>
+            <button class="botao-copiar" id="botao-copiar">Copiar</button>
         </div>
 
         <div class="codificador">
@@ -23,11 +27,14 @@
                 <p class="texto-erro">Apenas letras minúsculas e sem acento.</p>
             </div>
             <div class="botoes">
-                <button class="botao-codificar">Criptografar</button>
-                <button class="botao-decodificar">Descriptografar</button>
+                <button class="botao-codificar" id="botao-codificar">Criptografar</button>
+                <button class="botao-decodificar" id="botao-decodificar">Descriptografar</button>
             </div>
         </div>
 
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
